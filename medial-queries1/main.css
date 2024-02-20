@@ -1,3 +1,56 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.a {
+  border-style: solid;
+  height: 100px;
+  width: 600px;
+  margin: 10px;
+}
+
+.b {
+  border-style: solid;
+  height: 400px;
+  width: 600px;
+  margin: 10px;
+}
+
+.c {
+  border-style: solid;
+  height: 100px;
+  width: 600px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .subcontainer {
+    display: flex;
+  }
+
+  .a {
+    border-style: solid;
+    height: 200px;
+    width: 725px;
+    margin: 10px;
+  }
+
+  .b {
+    border-style: solid;
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+  }
+
+  .c {
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+  }
+}
