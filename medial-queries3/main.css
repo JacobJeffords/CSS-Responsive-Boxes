@@ -1,3 +1,56 @@
 body {
   background: peachpuff;
 }
+
+.a {
+  border-style: solid;
+  height: 200px;
+  width: 650px;
+  margin: 10px;
+}
+
+.subcontainer1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.b, .c, .d {
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.subcontainer2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.e, .f, .g {
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.h {
+  border-style: solid;
+  height: 500px;
+  width: 650px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1080px) {
+  .a {
+    height: 400px;
+    width: 970px;
+  }
+
+  .h {
+    position: relative;
+    bottom: 450px;
+    left: 670px;
+    height: 424px;
+    width: 300px;
+  }
+}

@@ -1,3 +1,60 @@
 body {
   background: papayawhip;
 }
+
+.a {
+  border-style: solid;
+  height: 200px;
+  width: 650px;
+  margin: 10px;
+}
+
+.b {
+  border-style: solid;
+  height: 400px;
+  width: 650px;
+  margin: 10px;
+}
+
+.subcontainer {
+  display: flex;
+}
+
+.c, .d, .e {
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.f {
+  border-style: solid;
+  height: 200px;
+  width: 650px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1080px) {
+  .a {
+    border-style: solid;
+    height: 300px;
+    width: 970px;
+    margin: 10px;
+  }
+
+  .b {
+    border-style: solid;
+    height: 400px;
+    width: 650px;
+    margin: 10px;
+  }
+
+  .f {
+    position: relative;
+    left: 670px;
+    bottom: 651px;
+    height: 625px;
+    width: 300px;
+    margin: 10px;
+  }
+}
